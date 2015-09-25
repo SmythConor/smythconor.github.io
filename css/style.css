@@ -1,8 +1,12 @@
 html {
-	height: 100%;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -30px;
 }
+
 html body {
-	background-color: #00002E;
+	background-color: #fff;
 	min-height: 100%;
 	height: 100%;
 }
@@ -12,12 +16,23 @@ html body {
 	min-height: 100%;
 	height: 100%;
 }
+
+.well {
+	margin-bottom: 100px;
+}
+
 .page-header {
 	text-align: center;
 }
 
+.contact_icons {
+	height: 50px;
+	width: 50px;
+}
+
 h3 {
 	text-align: center;
+	color: #1F1959;
 }
 
 h4 {
