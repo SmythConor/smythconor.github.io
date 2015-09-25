@@ -1,0 +1,42 @@
+html body {
+	//background-color: #666699;
+	background-color: #00002E;
+	min-height: 100%;
+	height: 100%;
+}
+
+.container-fluid {
+	background-color: #fff;
+	min-height: 100%;
+	height: 100%;
+}
+.page-header {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+p {
+	padding: 10px;
+	text-align: center;
+}
+
+hr {
+	margin: 150px;
+}
+
+ul {
+	text-align: left;
+	list-style-position: inside;
+}
+
+li {
+	text-align: center;
+	margin-right: 50px;
+}
