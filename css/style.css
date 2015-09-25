@@ -45,6 +45,7 @@ h4 {
 p {
 	padding-left: 50px;
 	text-align: left;
+	//color: #1C19A4;
 }
 
 hr {
@@ -54,9 +55,44 @@ hr {
 ul {
 	text-align: left;
 	list-style-position: inside;
+	list-style: none;
 }
 
 li {
 	text-align: center;
 	margin-right: 50px;
+}
+
+.timeline {
+	list-style: none;
+} 
+
+.timeline > li {
+	position: inherit;
+}
+
+.timeline > li .tm_date {
+	width: 20%;
+	margin-top: 20px;
+	position: absolute;
+	font-size: 2em;
+}
+
+.timeline > li .tm_date span {
+	text-align: right;
+	font-size: 0.9em;
+	color: #1C19A4;
+}
+
+/* Right content */
+.timeline > li .tm_label {
+	margin: 0 0 15px 25%;
+	//background: #3594cb;
+	background: #6cbfee;
+	color: #1C19A4;
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	border-radius: 5px;
 }
