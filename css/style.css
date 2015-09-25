@@ -30,9 +30,12 @@ html body {
 	width: 50px;
 }
 
+.headers {
+	color: #1C19A4;
+}
+
 h3 {
 	text-align: center;
-	color: #1F1959;
 }
 
 h4 {
@@ -40,8 +43,8 @@ h4 {
 }
 
 p {
-	padding: 10px;
-	text-align: center;
+	padding-left: 50px;
+	text-align: left;
 }
 
 hr {
