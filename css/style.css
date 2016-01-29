@@ -42,8 +42,10 @@ html body {
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
-.bloc-post h3 {
-	text-align: center;
+@media screen and (min-width: 48em) {
+    body {
+			text-align: left;
+		}
 }
 
 hr {
