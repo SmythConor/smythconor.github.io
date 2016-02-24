@@ -23,6 +23,21 @@
 				<h1>Final Year Project Blog</h1>
 			</div>
 			<div class="blog-post">
+				<h3>Log In Successful</h3>
+				<em>02/24/2016</em>
+				<p>
+					The log in now works. I had issues for a few days with returning the salt from the database and using it in the hash function. 
+					Solved this issue by storing the salt as a hex string which for some reason stays the same when converted to and from bytes unlike a 
+					string in java. Strange issue but it works now. The android code gave issues with converting to hex string due to lack of libraries 
+					for android.
+				</p>
+				<p>
+					I now need to create a transition from the log in screen to the main screen of the application. This will need some design work on the 
+					UI front. I also need to get Logging implemented for the server and android. I started design on the data models for the rest of the 
+					tables in the database, these are all initial ideas for the structures so they can be refactored later.
+				</p>
+			</div>
+			<div class="blog-post">
 				<h3>Sign Up/Testing</h3>
 				<em>02/11/2016</em>
 				<p>
